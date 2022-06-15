@@ -1,7 +1,8 @@
-# import math
-# from random import choice
-#
-# import pygame
+import math
+from random import choice
+
+import pygame
+
 #
 #
 # FPS = 30
