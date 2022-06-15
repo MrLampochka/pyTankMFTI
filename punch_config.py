@@ -4,8 +4,11 @@ GLOBALS = {
     "serializer": "{{major}}.{{minor}}.{{patch}}",
 }
 
-FILES = ["turt.py"]
+FILES = ["__init__.py"]
 
 VERSION = ["major", "minor", "patch"]
 
-# VCS = {"name": "git", "include_files": ["HISTORY.rst"], "include_all_files": True}
+VCS = {
+    "name": "git",
+    "commit_message": "Version updated from {{ current_version }} to {{ new_version }}",
+}
